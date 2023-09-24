@@ -1,0 +1,110 @@
+body, h1, ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../images/empty-theater.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+#P-1{
+    font-size: 20px;
+    font-family:'Limelight', cursive;
+}
+.main-container {
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #000000;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    text-align: center;
+}
+
+.header-container h1 {
+    color: darkred;
+}
+
+.search-container {
+    width: 800px;
+    height: 125px;
+    margin: 100px auto;
+    padding: 20px 150px;
+    background-color: #b8b8b8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+   
+}
+
+
+.search-btn {
+    background-color: darkred;
+    border: none;
+    color: #fff;
+    font-family: 'Limelight', cursive;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 500px;
+    
+}
+
+.search-btn:hover {
+    background-color: #c0392b;
+}
+
+.navBar {
+    overflow: hidden;
+    background-color: darkred;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row; /* Ensure the navigation items are in a row */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navBar li {
+    list-style: none;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: 'Limelight', cursive;
+
+}
+#oh-button{
+    font-family: 'Limelight', cursive;
+}
+
+@media screen and (max-width: 768px) {
+    .navBar li a {
+        font-size: 16px; /* Adjust font size for tablets and phones */
+    }
+    .search-container {
+        width: 50%;
+        margin: auto;
+        padding: 20px;
+        background-color: #b8b8b8;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    
+    }
+    .movie-search {
+       width: 120px;
+    }}

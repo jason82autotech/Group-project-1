@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../images/empty-theater.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 800px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #b8b8b8;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    font-family:'Limelight', cursive;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: darkred;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+    width: 400px;
+    font-family:'Limelight', cursive;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+    font-family:'Limelight', cursive;
+}
+
+#result {
+    font-size: 24px;
+    font-weight: bold;
+   color: black;
+    margin-top: 20px;
+    font-family:'Limelight', cursive;
+}
+.navBar {
+    overflow: hidden;
+    background-color: darkred;
+    height: 50px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row; /* Ensure the navigation items are in a row */
+    justify-content: space-around;
+    align-items: center;
+   
+}
+
+.navBar li {
+    list-style: none;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family:'Limelight', cursive;
+}
+
+@media screen and (max-width: 768px) {
+    .navBar li a {
+        font-size: 16px; /* Adjust font size for tablets and phones */
+    }}
